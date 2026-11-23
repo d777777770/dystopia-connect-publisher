@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dystopia Connect Publisher</title>
+<meta name="description" content="A personal tool that uploads the Dystopia Connect channel's own animated YouTube Shorts.">
+<style>
+  :root { --bg: #f7f5f0; --ink: #1d1b22; --muted: #5b5866; --accent: #c0392b; --card: #ffffff; --line: #e4e0d6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16151b; --ink: #f1eee8; --muted: #b0acb8; --accent: #ff6b5a; --card: #201f27; --line: #34323d; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dystopia Connect Publisher</h1>
+  <p class="lead">A personal tool that uploads my own animated YouTube Shorts to my own YouTube channel, Dystopia Connect.</p>
+
+  <div class="card">
+    <p><strong>What it does.</strong> When one of my animated Shorts is finished, this tool checks the video file and uploads
+    it to my YouTube channel with its title, description, hashtags and thumbnail. It runs on my own computer, about once a day.</p>
+    <p><strong>Who it is for.</strong> Only me, the owner of the Dystopia Connect channel. It is not a public service, and
+    nobody else can sign in to it or use it.</p>
+  </div>
+
+  <h2>How it uses YouTube</h2>
+  <p>The tool uses the official YouTube Data API through Google sign-in (OAuth 2.0). It asks for permission to upload
+  videos to my channel and to read my channel's basic details, so it can confirm each upload worked. It does not read,
+  change or delete anything else.</p>
+
+  <h2>Your data</h2>
+  <p>The tool does not collect any information about viewers or other people. See the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2>Terms</h2>
+  <p>Using this tool means using YouTube, so the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a> apply.</p>
+
+  <footer>
+    <p>Contact: <a href="mailto:dsoccer2004@gmail.com">dsoccer2004@gmail.com</a> · <a href="privacy.html">Privacy policy</a></p>
+  </footer>
+</main>
+</body>
+</html>
